@@ -1,0 +1,10 @@
+<body>
+<div  ng-repeat="item in PC.Items">
+    <button type="button" (click)="minus()" [disabled]="disabled"><i class="fa fa-minus" ></i>-</button>
+    <input type="text" value="{{this.quantity}}">
+   
+    <button type="button" (click)="plus()" ><i class="fa fa-minus"></i>+</button>   
+    
+</div>
+</body>
+  
